@@ -1,0 +1,11 @@
+{
+  "name": "@kamaln7/print_npm_version_inst",
+  "version": "1.0.0",
+  "description": "this package logs the npm version used to install it in ./version.txt",
+  "main": "index.js",
+  "scripts": {
+	  "preinstall": "npm --version > ./version.txt"
+  },
+  "author": "Kamal Nasser <hello@kamal.io>",
+  "license": "MIT"
+}
