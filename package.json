@@ -1,6 +1,6 @@
 {
   "name": "@kamaln7/print_npm_version_inst",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this package logs the npm version used to install it in ./version.txt",
   "main": "index.js",
   "scripts": {
